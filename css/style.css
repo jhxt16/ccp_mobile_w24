@@ -128,3 +128,38 @@ nav ul li a.active {
     height: 100%;
     object-fit: cover;
 }
+
+.about_me {
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+}
+
+.about_me img {
+    border: 5px solid #3a4a8d;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.contact_me {
+    padding: 10px;
+}
+
+.contact_list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+}
+
+.contact_list li {
+    margin: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgba(136, 156, 244, 0.491);
+    backdrop-filter: blur(10px);
+    text-align: center;
+    text-decoration: underline;
+}
